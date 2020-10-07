@@ -57,7 +57,7 @@ print(a)
 change()
 print(a)
 ```
-outputs
+- outputs
 ```
 macname@MacdeMBP ~ % python3 test.py
 1
@@ -90,7 +90,7 @@ print(a)
 a.update(b)
 print(a)
 ```
-outputs
+- outputs
 ```
 macname@MacdeMBP ~ % python3 test.py
 {'key1': 'v1', 'key2': 'v2'}
