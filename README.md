@@ -78,7 +78,25 @@ math: 数学运算
 datetime:处理日期时间
 ```
 ---
+##### 5.字典如何删除键和合并两个字典
+```
+a={"key1":"v1","key2":"v2"}
+b={"key3":"v3","key4":"v4"}
 
+print(a)
+del a["key1"]
+print(a)
 
-
+a.update(b)
+print(a)
+```
+outputs
+```
+macname@MacdeMBP ~ % python3 test.py
+{'key1': 'v1', 'key2': 'v2'}
+{'key2': 'v2'}
+{'key2': 'v2', 'key3': 'v3', 'key4': 'v4'}
+macname@MacdeMBP ~ % 
+```
+---
 
