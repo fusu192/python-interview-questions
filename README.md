@@ -118,7 +118,21 @@ macname@MacdeMBP ~ % python3 test.py
 macname@MacdeMBP ~ % 
 ```
 ---
+##### 8.fun(*args,**kwargs)中的*args,**kwargs什么意思？
+```
+def test(*args,**kwargs):
+    print(args)
+    print(kwargs)
 
-
+test("a","b","c",d="aaa")
+```
+输出
+```
+macname@MacdeMBP ~ % python3 test.py
+('a', 'b', 'c')
+{'d': 'aaa'}
+macname@MacdeMBP ~ % 
+```
+---
 
 
