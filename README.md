@@ -134,5 +134,15 @@ macname@MacdeMBP ~ % python3 test.py
 macname@MacdeMBP ~ % 
 ```
 ---
+##### 9.python2和python3的range（100）的区别
+- python2返回列表，python3返回迭代器，节约内存
+---
+##### 10.一句话解释什么样的语言能够用装饰器?
+- 函数可以作为参数传递的语言，可以使用装饰器
+---
+
+
+
+
 
 
