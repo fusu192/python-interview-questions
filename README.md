@@ -57,3 +57,11 @@ print(a)
 change()
 print(a)
 ```
+outputs
+```
+macname@MacdeMBP ~ % python3 test.py
+1
+10
+macname@MacdeMBP ~ % 
+```
+---
